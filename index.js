@@ -1,4 +1,4 @@
-import {theMessage} from './message'
+import {theMessage} from './message.js'
 
 addEventListener("fetch", (event) => {
   const response = new Response(theMessage(), {
